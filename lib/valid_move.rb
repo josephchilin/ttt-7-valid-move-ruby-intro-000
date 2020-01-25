@@ -19,7 +19,7 @@ def board_move?(move)
 end
 
 
-  if (position_taken?(board,index) == false) && (board_move?(index) == true)
+  if (position_taken?(board,index)) == false && (board_move?(index) == true)
     true
   else
     false
